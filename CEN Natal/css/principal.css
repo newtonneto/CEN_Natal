@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#logo {
+	/*background: red;*/
+	width: 100%;
+	height: 10em;
+}
+
+#menuPrincipal ul {
+	/*position: absolute;
+	left: 50%;
+	transform: translateX(-50%);*/
+	text-align: center;
+	background: black;
+}
+
+#menuPrincipal ul li {
+	/*float: left;*/
+	display: inline-block;
+	margin-left: 2em;
+	margin-right: 2em;
+	list-style-type: none;
+	font-size: 2em;
+	color: white;
+	padding: 0.5em;
+}
+
+#menuPrincipal ul li:hover {
+	background: green;
+}
+
+#home {
+	background-color: blue;
+	width: 90%;
+	/*height: 50em;*/
+	margin: 0 auto;
+	text-align: center;
+}
+
+#caixaNoticiaCima {
+	background: green;
+	display: inline-block;
+	border: 1px solid red;
+	width: 25em;
+	height: 8em;
+	margin-top: 3em;
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+#caixaNoticiaBaixo {
+	background: green;
+	display: inline-block;
+	border: 1px solid red;
+	width: 25em;
+	height: 8em;
+	margin-top: 1em;
+	margin-left: 5em;
+	margin-right: 5em;
+	margin-bottom: 3em;
+}
+
+#caixa {
+	background: pink;
+	/*display: inline-block;*/
+	border: 1px solid red;
+	width: 25em;
+	height: 6em;
+	/*margin-top: 3em;
+	margin-left: 5em;
+	margin-right: 5em;*/
+}
